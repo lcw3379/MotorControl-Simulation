@@ -32,9 +32,11 @@ Kia=Jω˙+bω+TL(ω=dθ/dt)
 
 Maxon사의 dcx35l의 사양을 참고하여 다음과 같이 작성하였다.
 
-![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/0608db33-adb8-4671-aced-1518740f6d3f)
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/95b3203b-934c-412b-b8fd-950f344aabb6)
+
 
 실행 결과는 다음과 같다.
 
-![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/1b7ba937-418b-4f2e-924c-a33767fc9170)
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/79db1b32-7801-4b4c-9a59-b50c765f3e5e)
+
 
