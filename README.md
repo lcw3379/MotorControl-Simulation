@@ -11,3 +11,22 @@
 먼저 전기시스템의 식은 다음과 같다.
 
 Va=Raia+Ladiadt+ea
+
+다음으로 자계시스템의 식은 다음과 같다.
+
+F=Bli[N]
+여기서 자계 B를 자속 ϕ로 변환하면 다음과 같다.
+Tm=kTϕia
+ 
+마지막으로 기계시스템의 식은 다음과 같다.
+
+Tm=Jω˙+bω+TL
+
+자계시스템과 합치면 아래의 식이 된다.
+
+Kia=Jω˙+bω+TL(ω=dθ/dt)
+
+해당 식을 라플라스 변환을 거친 후 블록 선도를 만들면 다음과 같다.
+
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/41687f1c-8ec7-4348-aa10-cb1f38bb3a0e)
+
