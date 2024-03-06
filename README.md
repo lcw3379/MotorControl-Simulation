@@ -39,4 +39,23 @@ Maxon사의 dcx35l의 사양을 참고하여 다음과 같이 작성하였다.
 
 ![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/79db1b32-7801-4b4c-9a59-b50c765f3e5e)
 
+그 후, 위치제어기, 속도제어기, 전류제어기를 장착하여 모터 구동 시뮬레이션을 만들어 보았다.
 
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/a4811c4a-29b9-4cb4-a93c-670033597c69)
+
+위치제어기, 속도제어기, 전류제어기 내부는 다음과같다.
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/02fee68c-bc52-487f-8977-d6ede4632717)
+
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/35ca43ba-487a-41f3-8ca0-7b0fef3b51b6)
+속도제어기에는 PI제어기와 IP제어기를 섞어서 사용한다.
+
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/e76a5ad2-7273-4187-bf28-6ca93e1fd82c)
+
+
+
+
+스텝에서의 반응은 다음과 같다.
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/83ef8ec2-de15-4da8-91fd-396f48864ba4)
+
+
+연속 펄스에서의 반응은 다음과 같다.
