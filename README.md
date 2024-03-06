@@ -59,3 +59,9 @@ Maxon사의 dcx35l의 사양을 참고하여 다음과 같이 작성하였다.
 
 
 연속 펄스에서의 반응은 다음과 같다.
+
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/efebb33b-8a50-4c7e-92eb-e65a88c754a7)
+
+속도추정을 제대로 하지 못하는 것으로 보아 전압 인풋에 문제가 있다고 판단하였다. 전압을 측정하였더니 제대로 정격전압인 12볼트까지 올라가지 못하는 현상이 있었다.
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/6d6d0b00-e086-41c4-9c3a-2537312ec9d8)
+
