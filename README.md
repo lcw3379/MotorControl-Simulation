@@ -66,4 +66,31 @@ Maxon사의 dcx35l의 사양을 참고하여 다음과 같이 작성하였다.
 
 
 
+2. BLDC 모터
+BLDC모터는 mosfet소자로 구성된 인버터, 인버터에 신호를 주는 디코더, BLDC모터로 구성되어 있다.
 
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/e5cfaef2-7233-4d60-8c4e-944768c17a33)
+
+BLDC모터는 참조한 블로그처럼 PMSM모터의 역기전력 파형을 사다리꼴 모양으로 설정하여 구현하였다.
+
+모터의 부하는 0.05초에서 토크의 형태로 가하였다.
+그러나 아래 사진처럼 참고자료와는 달리 부하가 없는 상태에서도 모터가 특정 속도로 움직이는 현상이 있었다.
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/3cf3a8ec-fd27-4aed-958a-b3bc80b01dff)
+
+
+참고한 BLDC모터의 파라미터를 조금씩 변형하여 결과를 보았다. 상전류에서는 초기에 큰 전류가 흐른 다음, BLDC모터에서 보이는 전류 모양과 부하 시 역기전력이 줄어드는 현상 등을 볼 수 있었다. 하지만 초기부터 가속이 발생하는 현상은 막을 수 없었다. 그리고 RPM이 +방향이 아닌 -방향으로 추출되었다. 
+
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/88fb8e72-1de1-4343-b584-507b08c0cc99)
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/c6628d30-b1cf-4466-83be-4194e023cc30)
+![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/c6d03947-bcec-4d3a-806b-8ce8813ea834)
+
+
+
+
+참고 
+DC모터
+ https://ropiens.tistory.com/8
+BLDC모터
+김상훈 저, 모터제어
+https://m.blog.naver.com/lagrange0115/220616270553
+https://blog.naver.com/PostView.naver?blogId=lagrange0115&logNo=220672963499
