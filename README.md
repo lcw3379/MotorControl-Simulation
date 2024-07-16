@@ -86,6 +86,13 @@ BLDC모터는 참조한 블로그처럼 PMSM모터의 역기전력 파형을 사
 
 
 
+여러 파라미터를 조정해가며 역기전력 파형과 속도를 관찰하였다.
+![image](https://github.com/user-attachments/assets/6dc3a44e-0b61-48de-b54a-cfd4d82cbba1)
+![image](https://github.com/user-attachments/assets/de5fc550-8fed-44cd-9882-474d3746184b)
+
+
+
+
 
 참고 
 DC모터
