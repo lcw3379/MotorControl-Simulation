@@ -1,6 +1,5 @@
-# MotorControl-Simulation
 
-1. DC모터
+# 1. DC모터
 
  DC모터 모델링은 해당 블로그를 참고하였다.
 
@@ -46,12 +45,15 @@ Maxon사의 dcx35l의 사양을 참고하여 다음과 같이 작성하였다.
 위치제어기, 속도제어기, 전류제어기 내부는 다음과같다.
 
 ![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/02fee68c-bc52-487f-8977-d6ede4632717)
+
 위치제어기.
 
 ![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/35ca43ba-487a-41f3-8ca0-7b0fef3b51b6)
+
 속도제어기. 속도제어기에는 PI제어기와 IP제어기를 섞어서 사용한다.
 
 ![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/e76a5ad2-7273-4187-bf28-6ca93e1fd82c)
+
 전류제어기.
 
 
@@ -66,7 +68,7 @@ Maxon사의 dcx35l의 사양을 참고하여 다음과 같이 작성하였다.
 
 
 
-2. BLDC 모터
+# 2. BLDC 모터
 BLDC모터는 mosfet소자로 구성된 인버터, 인버터에 신호를 주는 디코더, BLDC모터로 구성되어 있다.
 
 ![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/e5cfaef2-7233-4d60-8c4e-944768c17a33)
@@ -95,9 +97,15 @@ BLDC모터는 참조한 블로그처럼 PMSM모터의 역기전력 파형을 사
 
 
 참고 
+
 DC모터
+
  https://ropiens.tistory.com/8
+ 
 BLDC모터
+
 김상훈 저, 모터제어
+
 https://m.blog.naver.com/lagrange0115/220616270553
+
 https://blog.naver.com/PostView.naver?blogId=lagrange0115&logNo=220672963499
