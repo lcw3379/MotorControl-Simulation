@@ -76,7 +76,9 @@ BLDC모터는 mosfet소자로 구성된 인버터, 인버터에 신호를 주는
 BLDC모터는 참조한 블로그처럼 PMSM모터의 역기전력 파형을 사다리꼴 모양으로 설정하여 구현하였다.
 
 모터의 부하는 0.05초에서 토크의 형태로 가하였다.
+
 그러나 아래 사진처럼 참고자료와는 달리 부하가 없는 상태에서도 모터가 특정 속도로 움직이는 현상이 있었다.
+
 ![image](https://github.com/lcw3379/MotorControl-Simulation/assets/127228208/3cf3a8ec-fd27-4aed-958a-b3bc80b01dff)
 
 
@@ -88,7 +90,7 @@ BLDC모터는 참조한 블로그처럼 PMSM모터의 역기전력 파형을 사
 
 
 
-여러 파라미터를 조정해가며 역기전력 파형과 속도를 관찰하였다.
+여러 파라미터를 조정해가며 역기전력 파형과 속도를 관찰하였다. 모터의 파라미터 값에 의하여 변화가 컸다. 
 ![image](https://github.com/user-attachments/assets/6dc3a44e-0b61-48de-b54a-cfd4d82cbba1)
 ![image](https://github.com/user-attachments/assets/de5fc550-8fed-44cd-9882-474d3746184b)
 
